@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.randompianist.gwent" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GwentByLavinia</name>
+    <description>Gwent 3.1 App</description>
+    <author email="you@example.com" href="http://example.com/">Lavinia</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreenDuration" value="750" />
+    <preference name="Orientation" value="landscape" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
+    <icon src="icon.png" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="mdpi" src="icon.png" />
+        <icon density="hdpi" src="icon.png" />
+        <icon density="xhdpi" src="icon.png" />
+        <icon density="xxhdpi" src="icon.png" />
+        <icon density="xxxhdpi" src="icon.png" />
+    </platform>
+</widget>
